@@ -1,0 +1,28 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "build": "npm run lint && tsc",
+    "start": "node lib/index.js"
+  },
+  "author": "Kevin Murphy",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/request": "^2.48.3",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

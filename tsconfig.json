@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es3",
+        "sourceMap": true,
+        "outDir": "lib",
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "downlevelIteration": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
